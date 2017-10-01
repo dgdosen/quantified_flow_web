@@ -5,4 +5,4 @@
 layout: page
 ---
 
-Quantified Flow is live...
+Quantified Flow is live.
