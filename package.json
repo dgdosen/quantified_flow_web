@@ -5,8 +5,9 @@
   "version": "1.0.0",
   "author": "Daniel Dosen<daniel.dosen@quantifiedflow.com>",
   "scripts": {
-    "develop": "gatsby develop",
     "build": "gatsby build",
+    "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "predevelop": "postcss tailwind.css -o tailwind.custom.css",
     "prebuild": "postcss tailwind.css -o tailwind.custom.css",
     "serve": "gatsby serve"
