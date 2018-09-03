@@ -1,0 +1,31 @@
+{
+  "name": "quantified_flow_web",
+  "description": "Quantified Flow Static Web Site",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": "Daniel Dosen<daniel.dosen@quantifiedflow.com>",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "predevelop": "postcss tailwind.css -o tailwind.custom.css",
+    "prebuild": "postcss tailwind.css -o tailwind.custom.css",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "babel-plugin-tailwind": "^0.1.10",
+    "emotion": "^9.2.8",
+    "emotion-server": "^9.2.8",
+    "gatsby": "next",
+    "gatsby-plugin-emotion": "next",
+    "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "postcss": "^7.0.2",
+    "postcss-cli": "^6.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-emotion": "^9.2.8",
+    "react-helmet": "^5.2.0",
+    "tailwindcss": "^0.6.5"
+  }
+}
