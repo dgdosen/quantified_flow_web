@@ -28,5 +28,8 @@
     "react-emotion": "^9.2.8",
     "react-helmet": "^5.2.0",
     "tailwindcss": "^0.6.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
